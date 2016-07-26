@@ -73,15 +73,17 @@
                 .hover1{
                     z-index: 20;
                     top:-1000px;
-/*                    text-align: center;
-*/                   position:relative;
+                    text-align: center;
+                    position:relative;
+                    right:20%;
                 }
 
                 .hover2{
                     z-index: 20;
                     top:-1000px;
-/*                    text-align: center;
-*/                   position:relative;
+                    text-align: center;
+                    position:relative;
+                    right:20%;
                 }
 
                 /*This is the css for the flip cards*/
@@ -150,7 +152,7 @@
     }
 
     #vrHospitalFlip {
-        bottom: 800px;
+        bottom: 750px;
         /*     border:2px solid black; */
         width: 400px;
         left: 25%;
@@ -161,10 +163,22 @@
     }
 
     #edFlip {
-        bottom: 800px;
+        bottom: 750px;
         /*     border:2px solid black; */
         width: 400px;
         left: 31%;
+    }
+
+    #secondTitle{
+        position:relative;
+        bottom: 950px;
+        left: 18%;
+    }
+
+    #firstTitle{
+        position:relative;
+        bottom: 1000px;
+        right: 10%;
     }
 			</style>
 		</head>
@@ -209,7 +223,7 @@
                     <img id = "ed" class="front-card" src="vrEd.jpg">
                 </div>
                 <div class="reverse-card" id="card1">
-                    <p class="ppp">Virtual reality could be a huge asset to schools across the world in no time at all. For visual learners, seeing their lessons right in front of them could be essential to their growth in school. Being able to travel places in virtual reality could make classes such as history more engaging for students of all ages. 
+                    <p class="ppp">Virtual reality could be a huge asset to schools across the world in no time at all. For visual learners, seeing their lessons right in front of them could be essential to their growth in school. Being able to travel places in virtual reality could make classes such as history more engaging for students of all ages. To find out more, visit the link <a href = "https://techcrunch.com/2016/01/23/when-virtual-reality-meets-education/"> <strong> here</strong></a>.
 
                     </p>
                 </div>
@@ -220,6 +234,9 @@
 
         <h2 class = "hover1"> Applications</h2>
         <h4 class = "hover2">Hover over the pictures below in order to learn more about <br> some of the different uses of virtual reality!</h4>
+
+        <h3 id = "secondTitle"><u>Education</u></h3>
+        <h3 id = "firstTitle"><u>Medicine</u></h3>
         
 			</body>
 	</html>
