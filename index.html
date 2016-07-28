@@ -391,7 +391,22 @@
                             <h2>A-Frame</h2>
                             <hr class="star-primary">
                             <img src="webvr.jpg" class="img-responsive img-centered" alt="">
-                            <p>For the last two weeks of camp, we also had the opportunity to learn about a-frame web VR. Web VR exactly what it sounds like, VR that you can share over the web by putting it on your website. Web VR is the most accessible form of virtual reality right now because anyone who has a mobile phone or access to a computer can view it. You can view a very simple example of Web VR below, just to see what it is like.</p>
+                            <p>For the last two weeks of camp, we also had the opportunity to learn about a-frame web VR. Web VR exactly what it sounds like, VR that you can share over the web by putting it on your website. Web VR is the most accessible form of virtual reality right now because anyone who has a mobile phone or access to a computer can view it.</p>
+                            <a-scene>
+                                <a-box color="#2132F4" width="10" height="7" depth="8"
+                                    position="0 0 0" rotation="0 45 0"  scale="2 .5 3"
+                                    src="texture.jpg"></a-box>
+      
+                                <a-sky src="stars.jpg"></a-sky>
+      
+                                <a-entity id="sound-entity" sound="src: Jellyfish_in_Space.mp3; autoplay: true"></a-entity>
+
+                                <a-camera position="0 0 0">
+                                    <a-cursor color="#FFFFF">
+                                </a-camera>
+
+                            </a-scene>
+
                             <!-- <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
